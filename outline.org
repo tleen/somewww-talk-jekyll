@@ -1,6 +1,8 @@
 * Why Static
 ** Scalability
 WordPress sites cache to get the same effect.
+** Security
+No php, no database, no queries, no xss
 ** Defaulting Dynamic
 Most websites are now dynamically generated in real-time, with caching, complexity is massive before you even start!
 ** Static is simple
@@ -10,7 +12,7 @@ Making site static, but rapidly generating static, seem dynamic with all the ben
 ** Javascript
 Things that used to be done on the server-side (dynamically) can now be performed client side with JavaScript APIs. 
 * Jekyll
-Tool for generating static websites.
+Tool for generating static websites. 
 ** Why now?
 ***  Standard way of generating static websites, better then the custom script-per site approach.
 *** GitHub has adopted it for website hosting, pushing popularity + adoption
@@ -58,3 +60,6 @@ http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platfo
 s3/cdn/js API for dynamic stuff
  
 
+** Healthcare.gov
+Remember that scene? Partially served statically now
+https://www.healthcare.gov/
