@@ -1,0 +1,59 @@
+* Why Static
+** Scalability
+WordPress sites cache to get the same effect.
+** Defaulting Dynamic
+Most websites are now dynamically generated in real-time, with caching, complexity is massive before you even start!
+** Static is simple
+Static sites do not crash, they are easier to debug because a complex component of many sites (server-side) is no longer present.
+** Static-Dynamic
+Making site static, but rapidly generating static, seem dynamic with all the benefits of static.
+** Javascript
+Things that used to be done on the server-side (dynamically) can now be performed client side with JavaScript APIs. 
+* Jekyll
+Tool for generating static websites.
+** Why now?
+***  Standard way of generating static websites, better then the custom script-per site approach.
+*** GitHub has adopted it for website hosting, pushing popularity + adoption
+Makes sense, one of the founders of GitHub built it. Tom-Preston-Werner (built Gravatar too!)
+*** Combines a lot of other useful techs
+Jekyll is the generator, the techs involved are things like
+**** YAML
+**** Markdown/Textile / HTML
+**** Sass / CSS
+**** Liquid / HTML
+*** But you don't /need/ to use anything beyond YAML
+** What is Jekyll
+*** Ruby
+*** Generates a site based on /filesystem structure/ and /front matter/
+*** Helpful tools besides generation like:
+**** --serve
+**** --watch
+** Jekyll Technologies
+*** Ruby
+Don't need to know much about Ruby
+*** YAML
+Format for how you give information to Jekyll for processing
+*** Liquid
+Templating language, looks a lot like all the others, lots of people use it, you know mostly Shopify and GitHub.
+*** Sass
+** /Front Matter/ & /Filenames/
+** Filesystem layout
+** Configuration file
+** Your Data Files
+Pages / Posts / Etc
+** Your Top-Level Pages
+** Your Layouts
+
+* Jekyll Integrations
+** Jekyll/S3
+https://github.com/laurilehmijoki/s3_website
+** GitHub Pages
+
+*** Special branch for projects
+gh-pages : git checkout --orphan gh-pages
+* Jekyll in Real Life
+** Obama 2012 donation site
+http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/
+s3/cdn/js API for dynamic stuff
+ 
+
