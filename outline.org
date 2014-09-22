@@ -36,6 +36,7 @@ Format for how you give information to Jekyll for processing
 *** Liquid
 Templating language, looks a lot like all the others, lots of people use it, you know mostly Shopify and GitHub.
 *** Sass
+*** Markdown
 ** /Front Matter/ & /Filenames/
 ** Filesystem layout
 ** Configuration file
