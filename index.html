@@ -2,5 +2,8 @@
 layout : slideshow
 ---
 
-Just a placeholder for now.
-
+{% for slide in site.slides %}
+<div class="slide">
+  {{ slide.output }}
+</div>
+{% endfor %}
