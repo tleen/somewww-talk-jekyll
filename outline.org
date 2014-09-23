@@ -23,6 +23,7 @@ Jekyll is the generator, the techs involved are things like
 **** Markdown/Textile / HTML
 **** Sass / CSS
 **** Liquid / HTML
+Very loose in variable use, doesnt error much... Can operate on missing things, nothing happens. good!
 *** But you don't /need/ to use anything beyond YAML
 ** What is Jekyll
 *** Magic implicit configuration
