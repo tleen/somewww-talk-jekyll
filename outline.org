@@ -25,6 +25,8 @@ Jekyll is the generator, the techs involved are things like
 **** Liquid / HTML
 *** But you don't /need/ to use anything beyond YAML
 ** What is Jekyll
+*** Magic implicit configuration
+http://pchiusano.github.io/2014-05-20/jekyll-vs-hakyll.html
 *** Ruby
 *** Generates a site based on /filesystem structure/ and /front matter/
 *** Helpful tools besides generation like:
