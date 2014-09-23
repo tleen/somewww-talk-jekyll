@@ -1,0 +1,21 @@
+---
+layout : text
+---
+Credits for {{site.title}}
+===========================
+
+Team
+----
+
+Everything: {{site.author.name}}
+Contact: tl -at- thomasleen.com
+URLs: http://www.thomasleen.com, https://github.com/tleen
+Location: Portland, Maine
+
+Technologies
+------------
+
+Jekyll - http://jekyllrb.com/
+  Static site generator
+Reveal.js - http://lab.hakim.se/reveal-js/
+  Javascript/HTML presentations
