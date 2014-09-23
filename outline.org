@@ -48,7 +48,9 @@ Templating language, looks a lot like all the others, lots of people use it, you
 Pages / Posts / Etc
 ** Your Top-Level Pages
 ** Your Layouts
-
+** Sugar
+*** Pagenator!
+*** Data files
 * Jekyll Integrations
 ** Jekyll/S3
 https://github.com/laurilehmijoki/s3_website
