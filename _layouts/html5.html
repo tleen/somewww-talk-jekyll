@@ -7,8 +7,18 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    {% assign csses = page.require.css | split:',' %}
+    {% for filename in csses %}
+      <link rel="stylesheet" href="{{site.github.url}}/{{ filename }}">
+    {% endfor %}
+      <script src="{{site.github.url}}/reveal.js/lib/js/head.min.js"></script>
   </head>
   <body>
     {{content}}
+
+    {% assign scripts = page.require.javascript | split:',' %}
+    {% for filename in scripts %}
+      <script src="{{site.github.url}}/{{ filename }}"></script>
+    {% endfor %}
   </body>
 </html>

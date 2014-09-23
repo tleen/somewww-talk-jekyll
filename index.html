@@ -1,9 +1,13 @@
 ---
 layout : slideshow
 ---
-
-{% for slide in site.slides %}
-<div class="slide">
-  {{ slide.output }}
+<div class="reveal">
+  <div class="slides">
+    {% for slide in site.slides %}
+    <section>
+    {{ slide.output }}
+    </section>
+    {% endfor %}
+  </div>
 </div>
-{% endfor %}
+
