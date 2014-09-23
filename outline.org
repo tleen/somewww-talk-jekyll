@@ -32,6 +32,7 @@ http://pchiusano.github.io/2014-05-20/jekyll-vs-hakyll.html
 *** Helpful tools besides generation like:
 **** --serve
 **** --watch
+serve now watches by default
 ** Jekyll Technologies
 *** Ruby
 Don't need to know much about Ruby
@@ -47,6 +48,8 @@ Templating language, looks a lot like all the others, lots of people use it, you
 ** Your Data Files
 Pages / Posts / Etc
 ** Your Top-Level Pages
+** Your Posts
+** Custom Types (Collections)
 ** Your Layouts
 ** Sugar
 *** Pagenator!
