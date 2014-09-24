@@ -3,4 +3,12 @@ order: 1
 group: opening
 group_order: 0
 ---
-This is an initial slide
+
+# Why Static Website?
+
+All the good things...
+
+* Reliability
+* Scalability
+* Security
+* Speed
