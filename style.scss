@@ -8,10 +8,15 @@
 }
 
 .reveal{
-  sh
   code{
+    background: #000;
+    border: 1px solid white;
+    color: green;
     display: block;
     font-family: monospace;
+    font-size: 50%;
+    margin-top: 1.0em;
+    padding: 5px;
     text-align: left;
     white-space: pre;
   }

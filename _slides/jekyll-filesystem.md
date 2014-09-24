@@ -1,7 +1,7 @@
 ---
 order: 2
 group: jekyll-intro
-group_order: 2
+group_order: 3
 ---
 
 # Filesystem Matters

@@ -1,12 +1,12 @@
 ---
 order: 2
 group: jekyll-intro
-group_order: 2
+group_order: 3
 ---
 
 # Filesystem layout
 
-```shell
+```
 -rw-rw-r-- 1 tml tml   77 Sep 23 10:36 _config.yml
 -rw-rw-r-- 1 tml tml  401 Sep 23 17:44 humans.txt
 drwxrwxr-x 2 tml tml 4096 Sep 23 20:42 images
