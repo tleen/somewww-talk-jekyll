@@ -1,16 +1,24 @@
+* Splash
 * Why Static
 ** Scalability
 WordPress sites cache to get the same effect.
+** Reliability
+** Scalability
 ** Security
 No php, no database, no queries, no xss
+** Speed
+* Static still works
 ** Defaulting Dynamic
 Most websites are now dynamically generated in real-time, with caching, complexity is massive before you even start!
+*** Sometimes you need dynamic, (simple user editing, server-side logic)
 ** Static is simple
 Static sites do not crash, they are easier to debug because a complex component of many sites (server-side) is no longer present.
 ** Static-Dynamic
 Making site static, but rapidly generating static, seem dynamic with all the benefits of static.
 ** Javascript
 Things that used to be done on the server-side (dynamically) can now be performed client side with JavaScript APIs. 
+*** Codesiderations / Disquis
+
 * Jekyll
 Tool for generating static websites. 
 ** Why now?
@@ -25,6 +33,7 @@ Jekyll is the generator, the techs involved are things like
 **** Liquid / HTML
 Very loose in variable use, doesnt error much... Can operate on missing things, nothing happens. good!
 *** But you don't /need/ to use anything beyond YAML
+*** Happy medium between fully static / fully dynamic
 ** What is Jekyll
 *** Magic implicit configuration
 http://pchiusano.github.io/2014-05-20/jekyll-vs-hakyll.html
