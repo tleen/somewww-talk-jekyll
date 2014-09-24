@@ -3,9 +3,17 @@ layout : slideshow
 ---
 <div class="reveal">
   <div class="slides">
-    {% for slide in site.slides %}
+    {% assign parents = site.slides | where: 'group_order', 0 | sort: 'order' %} 
+    {% for parent in parents %}
+      {% assign group = site.slides | where: 'group', parent.group | sort: 'group_order' %}
     <section>
-    {{ slide.output }}
+      {% if group.size == 1 %}
+      {{ parent.output }} + alone
+      {% else %}
+        {% for slide in group %}
+      <section>{{ slide.output }}</section>
+        {% endfor %}
+      {% endif %}
     </section>
     {% endfor %}
   </div>
