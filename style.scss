@@ -2,10 +2,11 @@
 ---
 
 .reveal{
-  .section{
+  section{
     img[alt='Avatar']{
       max-height: 2.0em;
-      vertical-align: text-bottom;
+      margin-left: 1.0em;
+      vertical-align: middle;
     }
   }
 }
