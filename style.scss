@@ -1,8 +1,19 @@
 ---
 ---
 
+.img-clean{
+  background: none;
+  border: none;
+  box-shadow: none;  
+}
+
 .reveal{
   section{
+
+    img[src$='jekyll-logo.png']{
+      @extend .img-clean;
+    }
+
     img[alt='Avatar']{
       max-height: 2.0em;
       margin-left: 1.0em;
