@@ -15,7 +15,6 @@
   </head>
   <body>
     {{content}}
-
     {% assign scripts = page.require.javascript | split:',' %}
     {% for filename in scripts %}
       <script src="{{site.github.url}}/{{ filename }}"></script>

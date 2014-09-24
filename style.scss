@@ -8,6 +8,17 @@
 }
 
 .reveal{
+  
+  footer{
+    font-size: small;
+    padding: 2px 2px 0 0;
+    text-align: right;
+
+    a:not(.image){
+      color: #fff;
+    }
+  }
+
   section{
 
     h1{
