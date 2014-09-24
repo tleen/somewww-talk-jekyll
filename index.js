@@ -2,5 +2,6 @@
 layout: passthrough
 ---
 Reveal.initialize({
-  controls : true
+  controls : true,
+  history: true
 });
