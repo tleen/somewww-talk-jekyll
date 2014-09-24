@@ -8,6 +8,13 @@
 }
 
 .reveal{
+  sh
+  code{
+    display: block;
+    font-family: monospace;
+    text-align: left;
+    white-space: pre;
+  }
   
   footer{
     font-size: small;
@@ -36,3 +43,4 @@
     }
   }
 }
+
