@@ -8,7 +8,7 @@ layout : slideshow
       {% assign group = site.slides | where: 'group', parent.group | sort: 'group_order' %}
     <section>
       {% if group.size == 1 %}
-      {{ parent.output }} + alone
+      {{ parent.output }}
       {% else %}
         {% for slide in group %}
       <section>{{ slide.output }}</section>
