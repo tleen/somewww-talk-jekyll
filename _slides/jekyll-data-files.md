@@ -4,10 +4,10 @@ group: jekyll-intro
 group_order: 6
 ---
 
-# Data Files
+# Input Files
 
-* Data files are files formatted & put into template variables so your templates know they exist.
-* Mostly these are _posts, _drafts, (& _slides, _?)
+* Input files are files formatted & put into template variables so your templates know they exist.
+* _posts, *_slides*
 * **underscore** matters, name can matter (posts feed date), front-matter overrides:
 
 ```

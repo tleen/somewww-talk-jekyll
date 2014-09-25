@@ -11,7 +11,7 @@ group_order: 9
 ```
 collections:
     slides:
-      ouput : false
+      output : false
 ```
 
-Now you can put slides in the *_slides* directory. And get a list of them in liquid: *site.slides*.
+Now you can put slides in the *_slides* directory. And get a list of them in liquid as: *site.slides*.

@@ -10,7 +10,7 @@ Jekyll populates liquid with useful data:
 
 
 * [Data files](http://jekyllrb.com/docs/datafiles/)
- YAML, JSON, CSV, in *_data/*
+ YAML, JSON, CSV, in *_data/*, available as site.data.*filename*
 
 * [Permalinks](http://jekyllrb.com/docs/permalinks/)
 change format of post urls. WordPressy.
