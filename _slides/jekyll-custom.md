@@ -9,9 +9,9 @@ group_order: 9
 * posts-style handling can be extended to arbitrary types: **slides**
 * tell _config.yml:
 ```
----
 collections:
-  slides:
-    ouput : false
----
+    slides:
+      ouput : false
 ```
+
+Now you can put slides in the *_slides* directory. And get a list of them in liquid: *site.slides*.
