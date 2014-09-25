@@ -3,10 +3,10 @@
 ** Scalability
 WordPress sites cache to get the same effect.
 ** Reliability
-** Scalability
 ** Security
 No php, no database, no queries, no xss
 ** Speed
+** Cost 
 * Static still works
 ** Defaulting Dynamic
 Most websites are now dynamically generated in real-time, with caching, complexity is massive before you even start!
@@ -19,6 +19,8 @@ Making site static, but rapidly generating static, seem dynamic with all the ben
 Things that used to be done on the server-side (dynamically) can now be performed client side with JavaScript APIs. 
 *** Codesiderations / Disquis
 
+** If only there was a tool...
+that let you treat static like dynamic, with templates, data, pagenation...
 * Jekyll
 Tool for generating static websites. 
 ** Why now?
@@ -52,9 +54,10 @@ Format for how you give information to Jekyll for processing
 Templating language, looks a lot like all the others, lots of people use it, you know mostly Shopify and GitHub.
 *** Sass
 *** Markdown
-** /Front Matter/ & /Filenames/
+** /Filenames/
 ** Filesystem layout
 ** Configuration file
+** /Front Matter/
 ** Your Data Files
 Pages / Posts / Etc
 ** Your Top-Level Pages
@@ -64,6 +67,11 @@ Pages / Posts / Etc
 ** Sugar
 *** Pagenator!
 *** Data files
+*** Url format
+
+** Command Line Helpful
+*** serve
+auto watch (doesn't work for me) 
 * Jekyll Integrations
 ** Jekyll/S3
 https://github.com/laurilehmijoki/s3_website
