@@ -11,3 +11,4 @@ Why use Jekyll?
 * GitHub Pages
 * Permissive, it really leaves you alone
 * Happy medium between static/dynamic
+* Complex static sites

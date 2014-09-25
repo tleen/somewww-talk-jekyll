@@ -8,7 +8,7 @@ group_order: 2
 
 All stand-alone stuff, used in combination with Jekyll
 
-* **YAML**, for simple data formatting
+* **YAML**, for meta data formatting
 * **Liquid**, templating language, popular
 * **Sass**, advanced CSS, built in
 * **Markdown**, simple textual, very hip
