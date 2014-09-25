@@ -13,7 +13,7 @@ Jekyll populates liquid with useful data:
  YAML, JSON, CSV, in *_data/*
 
 * [Permalinks](http://jekyllrb.com/docs/permalinks/)
-Change format of post urls.
+change format of post urls. WordPressy.
 
 * [Pagination](http://jekyllrb.com/docs/pagination/)
 {% raw %}

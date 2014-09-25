@@ -7,7 +7,7 @@ group_order: 9
 # Custom Types
 
 * posts-style handling can be extended to arbitrary types: **slides**
-* tell _config.yml:
+* tell *_config.yml*:
 ```
 collections:
     slides:
