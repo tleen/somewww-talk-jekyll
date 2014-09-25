@@ -6,7 +6,8 @@ group_order: 2
 
 # Technologies
 
-* **Ruby**, like I said, you can ignore this after install
+All stand-alone stuff, used in combination with Jekyll
+
 * **YAML**, for simple data formatting
 * **Liquid**, templating language, popular
 * **Sass**, advanced CSS, built in
